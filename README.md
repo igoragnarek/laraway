@@ -1,7 +1,9 @@
 Установка
 
-git clone https://github.com/igoragnarek/laraway.git
-composer install
-Переименовать .env.example в .env
-Импортировать laraway.sql или php artisan migrate
-Запуск http://laraway/server.php
+<ul>
+<li>git clone https://github.com/igoragnarek/laraway.git</li>
+<li>composer install</li>
+<li>Переименовать .env.example в .env</li>
+<li>Импортировать laraway.sql или php artisan migrate</li>
+<li>Запуск http://laraway/server.php</li>
+</ul>
