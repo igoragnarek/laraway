@@ -44,7 +44,7 @@ class BasicController extends Controller
     public function blog(Article $article)
     {
 
-        $allPosts = $this->articles->blog();
+        $allPosts = $this->articles->blog($article);
 
         $users = $this->user->all();
         
