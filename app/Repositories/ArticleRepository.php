@@ -22,11 +22,10 @@ class ArticleRepository
                 ->get();
     }
 
-    public function blog()
+    public function blog(Article $article)
     {
-        return DB::table('articles')
-                ->orderBy('created_at', 'desc')
-                ->paginate(3);
+        return $article->orderBy('created_at', 'desc')
+                                    ->paginate(3);
     }
 
     public function pageById($id, Article $article)
