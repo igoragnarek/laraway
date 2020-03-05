@@ -41,7 +41,7 @@ class BasicController extends Controller
 
     }
 
-    public function blog(Request $request)
+    public function blog(Article $article)
     {
 
         $allPosts = $this->articles->blog();
